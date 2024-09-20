@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <header class="search">
+      <input type="text" spellcheck="false" placeholder="enter city name">
+      <button class="btn"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/750px-Search_Icon.svg.png?20181016161702"></button>
+    </header>
+    <div class="invalid">
+      <P>invalid city name</P>
+    </div>
+    <main class="main">
+      <img class="weather_img" src="cloud_sunny.png" alt="image">
+      <p class="tem">22°C</p>
+      <p class="city">Banglore</p>
+    </main>
+    <article class=" foot" >
+      <div class="bottom">
+        <div><img class="icon" src="humidity1.png" alt="image"></div>
+        <div><p>Humidity <br></p>
+        <p class="humidity">64%</p></div>
+      </div>
+      <div class="bottom">
+        <div><img class="icon" src="wind.png" alt="image"></div>
+        <div>
+          <p>Wind Speed <br></P>
+          <p class="wind">18 km/h</p>
+        </div>
+      </div>
+    </article>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
